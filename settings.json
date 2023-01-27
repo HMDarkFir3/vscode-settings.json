@@ -9,16 +9,24 @@
   "editor.letterSpacing": 1.5,
   "editor.tabSize": 2,
   "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.folders.associations": {
     "home": "",
     "events": "",
     "settings": "",
-    "dtos": "typescript"
+    "authentication": "",
+    "client": "",
+    "movie": "",
+    "chat": "",
+    "post": "",
+    "dtos": "typescript",
+    "reducers": "functions",
+    "storages": "database",
+    "png": "images"
   },
-  // Intellisense
-  "tabnine.experimentalAutoImports": true,
-  "window.zoomLevel": -1,
 
   // Code Formatter
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -41,6 +49,7 @@
     "typescript",
     "typescriptreact"
   ],
+
   // Demais configurações
   "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
@@ -63,17 +72,13 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "discord.removeRemoteRepository": true,
   "editor.formatOnSave": true,
-  "yaml.schemas": {
-    "file:///c%3A/Users/henri/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  },
-  "redhat.telemetry.enabled": true,
   "json.schemas": [
     {
       "name": "vscode-expo-manifest",
       "url": "file:///c%3A/Users/henri/AppData/Roaming/Code/User/globalStorage/bycedric.vscode-expo/manifest-44.0.0.json",
       "fileMatch": ["app.json", "app.config.json"]
     }
-  ]
+  ],
+  "window.zoomLevel": -1
 }
