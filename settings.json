@@ -1,6 +1,5 @@
 {
-  //Theme
-  "workbench.startupEditor": "newUntitledFile",
+  // VSCode Config
   "workbench.colorTheme": "Dracula",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
@@ -8,10 +7,8 @@
   "editor.lineHeight": 21,
   "editor.letterSpacing": 1.5,
   "editor.tabSize": 2,
-  "editor.suggestSelection": "first",
-  "editor.inlineSuggest.enabled": true,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.folders.associations": {
     "home": "",
@@ -27,17 +24,30 @@
     "storages": "database",
     "png": "images"
   },
+  "editor.renderLineHighlight": "gutter",
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": -1,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": true,
+  "editor.formatOnSave": true,
 
-  // Code Formatter
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+
+  // Prettier Config
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript, typescript, javascriptreact, typescriptreact, json, graphql, html]": {
+  "[javascript, typescript, javascriptreact, typescriptreact, json, graphql, html, vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma",
-    "editor.formatOnSave": true
-  },
+
+  // Auto Close and Rename Tag
   "auto-close-tag.enableAutoCloseTag": true,
   "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
   "auto-rename-tag.activationOnLanguage": [
@@ -47,38 +57,33 @@
     "javascript",
     "javascriptreact",
     "typescript",
-    "typescriptreact"
+    "typescriptreact",
+    "vue"
   ],
 
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+
   // Demais configurações
-  "explorer.compactFolders": false,
-  "editor.renderLineHighlight": "gutter",
-  "workbench.editor.labelFormat": "short",
   "extensions.ignoreRecommendations": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "breadcrumbs.enabled": true,
-  "editor.parameterHints.enabled": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
+  "typescript.suggest.autoImports": true,
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "javascript.suggest.autoImports": true,
-  "typescript.suggest.autoImports": true,
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  "editor.formatOnSave": true,
+
   "json.schemas": [
     {
       "name": "vscode-expo-manifest",
       "url": "file:///c%3A/Users/henri/AppData/Roaming/Code/User/globalStorage/bycedric.vscode-expo/manifest-44.0.0.json",
       "fileMatch": ["app.json", "app.config.json"]
     }
-  ],
-  "window.zoomLevel": -1
+  ]
 }
