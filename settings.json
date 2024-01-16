@@ -1,134 +1,139 @@
 {
-  // VSCode Config
-  "workbench.colorTheme": "Dracula",
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 21,
-  "editor.letterSpacing": 1.5,
-  "editor.tabSize": 2,
-  "explorer.compactFolders": false,
-  "workbench.editor.labelFormat": "short",
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.folders.associations": {
-    "home": "",
-    "events": "",
-    "settings": "",
-    "authentication": "",
-    "client": "",
-    "movie": "",
-    "chat": "",
-    "post": "",
-    "event": "",
-    "page": "",
-    "dtos": "typescript",
-    "reducers": "functions",
-    "storages": "database",
-    "png": "images"
-  },
-  "editor.renderLineHighlight": "gutter",
-  "editor.suggestSelection": "first",
-  "editor.inlineSuggest.enabled": true,
-  "breadcrumbs.enabled": true,
-  "editor.parameterHints.enabled": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "window.zoomLevel": -1,
-  "editor.minimap.enabled": true,
-  "editor.minimap.renderCharacters": true,
-
-  // Terminal
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
-
-  // Prettier Config
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[graphql]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[swift]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[dart]": {
-    "editor.defaultFormatter": "Dart-Code.dart-code",
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.rulers": [120],
-    "editor.selectionHighlight": true,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // VSCode Config
+    "workbench.colorTheme": "Dracula",
+    "editor.fontFamily": "JetBrains Mono", 
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 21,
+    "editor.letterSpacing": 1.5,
+    "editor.tabSize": 2,
+    "explorer.compactFolders": false,
+    "workbench.editor.labelFormat": "short",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.associations": {
+      "home": "",
+      "events": "",
+      "settings": "",
+      "authentication": "",
+      "client": "",
+      "movie": "",
+      "chat": "",
+      "post": "",
+      "event": "",
+      "page": "",
+      "dtos": "typescript",
+      "reducers": "functions",
+      "storages": "database",
+      "png": "images"
+    },
+    "editor.renderLineHighlight": "gutter",
     "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false,
-  },
-
-  // Auto Close and Rename Tag
-  "auto-close-tag.enableAutoCloseTag": true,
-  "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
-  "auto-rename-tag.activationOnLanguage": [
-    "html",
-    "xml",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "vue"
-  ],
-
-  // Demais configurações
-  "extensions.ignoreRecommendations": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.suggest.autoImports": true,
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "typescript.suggest.autoImports": true,
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "json.schemas": [
-    {
-      "name": "vscode-expo-manifest",
-      "url": "file:///c%3A/Users/henri/AppData/Roaming/Code/User/globalStorage/bycedric.vscode-expo/manifest-44.0.0.json",
-      "fileMatch": ["app.json", "app.config.json"]
-    }
-  ],
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false,
-    "dart": false
-  },
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true
-}
+    "editor.inlineSuggest.enabled": true,
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": -1,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": true,
+  
+    // Terminal
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "editor.rulers": [80],
+  
+    // Prettier Config
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[graphql]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[ruby]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[swift]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[dart]": {
+      "editor.defaultFormatter": "Dart-Code.dart-code",
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [80],
+      "editor.selectionHighlight": true,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": "off",
+    },
+  
+    // Auto Close and Rename Tag
+    "auto-close-tag.enableAutoCloseTag": true,
+    "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
+    "auto-rename-tag.activationOnLanguage": [
+      "html",
+      "xml",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "vue"
+    ],
+  
+    // Demais configurações
+    "extensions.ignoreRecommendations": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "typescript.suggest.autoImports": true,
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "json.schemas": [
+      {
+        "name": "vscode-expo-manifest",
+        "url": "file:///c%3A/Users/henri/AppData/Roaming/Code/User/globalStorage/bycedric.vscode-expo/manifest-44.0.0.json",
+        "fileMatch": ["app.json", "app.config.json"]
+      }
+    ],
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false,
+      "dart": false
+    },
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true
+  }
